@@ -1,0 +1,25 @@
+{
+  "sources": {
+    "EconomicTimes": {
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news",
+    "selector": {
+      "headline": "div.eachStory h3 a",
+      "description": "p"
+   }
+
+},
+    "EconomicTimesCrypto": {
+     "url": "https://economictimes.indiatimes.com/markets/cryptocurrency#CryptoNews",
+     "selector": {
+      "headline": "div.recoNewsLeft ul li a",
+      "description": ""
+      }
+    }
+
+  },
+  "output_file": "daily_news.csv",
+  "email": {
+    "send": false,
+    "to": "client@example.com"
+  }
+}
